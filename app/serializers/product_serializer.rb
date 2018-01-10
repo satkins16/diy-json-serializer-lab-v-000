@@ -8,5 +8,6 @@ class ProductSerializer
     serialized_product += '"inventory": ' + product.inventory.to_s + ', '
     serialized_product += '"description": "' + product.description + '"'
     serialized_product += '}'
+  end
 
 end
